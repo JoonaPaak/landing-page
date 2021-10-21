@@ -1,0 +1,28 @@
+
+.header {
+  background-color: #1F2937;
+  display: flex;
+  height: 80px;
+  margin: -8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.links {
+    display: flex;
+    gap: 20px
+}
+
+li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: grey; 
+}
+
